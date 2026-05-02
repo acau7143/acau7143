@@ -1,11 +1,11 @@
-# 👋 Hi, I'm Seongmin
+#  Hi, I'm Seongmin
 
 > **Infrastructure Engineer in the Making**  
 > Chungbuk National University · Information & Communications Engineering · 3rd Year
 
 ---
 
-## 🎯 About Me
+##  About Me
 
 ```
 💡 Goal     : Systems Engineer / Cloud Infrastructure Engineer
@@ -16,7 +16,7 @@
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Infrastructure & Cloud
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
@@ -33,7 +33,7 @@
 
 ---
 
-## 📜 Certifications
+##  Certifications
 
 | 자격증 | 취득 |
 |---|---|
@@ -46,7 +46,7 @@
 
 ---
 
-## 🚀 Featured Project
+##  Featured Project
 
 ### [Ops Mini Platform](https://github.com/acau7143/ops-mini-platform)
 > AWS EC2 + Docker + Nginx 기반 운영형 인프라 프로젝트
@@ -57,7 +57,7 @@
 - **24일차 진행 중** · 목표: Incident 20개 이상 문서화
 
 ```
-📁 구조
+ 구조
 ops-mini-platform/
 ├── runbook/       # 장애 대응 절차 문서
 ├── incident/      # INC-XXX 인시던트 기록
@@ -67,14 +67,14 @@ ops-mini-platform/
 
 ---
 
-## 📈 현재 집중하고 있는 것
+##  현재 집중하고 있는 것
 
-- 🔧 Ops Mini Platform 완성 (Incident 20개 목표)
-- ☁️ AWS Cloud Club Captain 지원 준비
-- 📚 RHCSA 방학 본격 시작 예정
+-  Ops Mini Platform 완성 (Incident 20개 목표)
+-  AWS Cloud Club Captain 지원 준비
+-  RHCSA 방학 본격 시작 예정
 
 ---
 
-## 📫 Contact
+##  Contact
 
 [![GitHub](https://img.shields.io/badge/GitHub-acau7143-181717?style=flat-square&logo=github)](https://github.com/acau7143)
