@@ -45,16 +45,16 @@
 | 정보처리기사 | 🔄 2027 목표 |
 
 ---
-
+> 시스템엔지니어 핵심 역량인 **운영·장애대응·재현성**을 콘솔 클릭이 아닌 문서와 코드로 증명하는 것을 목표로 합니다.
 ##  Featured Project
 
 ### [Ops Mini Platform](https://github.com/acau7143/ops-mini-platform)
 > AWS EC2 + Docker + Nginx 기반 운영형 인프라 프로젝트
 
-- 단순 구축이 아닌 **운영 · 장애 대응 · 문서화** 중심
-- Runbook / Incident / Diary 체계로 실무 운영 흐름 재현
-- UFW, Nginx Reverse Proxy, Docker Compose, Shell Script 포함
-- **24일차 진행 중** · 목표: Incident 20개 이상 문서화
+- nginx 502, Docker OOM, Terraform 권한 오류 등 13개 장애를 직접 재현·복구·문서화
+- Runbook 9개 · Incident 13개 · Diary 27일치 · Decisions 8개 체계적으로 유지
+- Terraform IaC, Docker Compose, CloudWatch 알람, Shell Script 자동화 포함
+- 27일차 진행 중 (12주 완성 목표)
 
 ```
  구조
