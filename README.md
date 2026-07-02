@@ -49,29 +49,31 @@
 ##  Featured Project
 
 ### [Ops Mini Platform](https://github.com/acau7143/ops-mini-platform)
-> AWS EC2 + Docker + Nginx 기반 운영형 인프라 프로젝트
+> AWS EC2 + Docker + Nginx 기반 운영형 인프라 프로젝트 (42일, 완료)
 
-- nginx 502, Docker OOM, Terraform 권한 오류 등 13개 장애를 직접 재현·복구·문서화
-- Runbook 9개 · Incident 13개 · Diary 27일치 · Decisions 8개 체계적으로 유지
-- Terraform IaC, Docker Compose, CloudWatch 알람, Shell Script 자동화 포함
-- 27일차 진행 중 (12주 완성 목표)
+- nginx 502, Docker OOM, Terraform IAM 권한 오류 등 16개 장애를 직접 재현·복구·문서화
+- Runbook 9개 · Incident 16개 · Diary 42일치 · Decision Log 12개 체계적으로 유지
+- Terraform IaC(모듈 구조, S3 Remote State), Docker Compose, CloudWatch 알람, Shell Script 자동화 포함
+- Day41 전체 인프라 재검증 PASS → Day42 프로젝트 완료
 
 ```
- 구조
+구조
 ops-mini-platform/
 ├── runbook/       # 장애 대응 절차 문서
-├── incident/      # INC-XXX 인시던트 기록
-├── diary/         # 일별 작업 회고
-└── scripts/       # healthcheck.sh, log_snapshot.sh 등
+├── incidents/     # INC-001 ~ INC-016 인시던트 기록
+├── decisions/     # 0001 ~ 0012 기술 선택 근거
+├── diary/         # 일별 작업 회고 (Day1 ~ Day42)
+└── scripts/       # healthcheck.sh, log_snapshot.sh, security-baseline.sh, deploy.sh
 ```
 
 ---
 
 ##  현재 집중하고 있는 것
 
--  Ops Mini Platform 완성 (Incident 20개 목표)
--  AWS Cloud Club Captain 지원 준비
--  RHCSA 방학 본격 시작 예정
+-  RHCSA 자격증 취득 (2026 여름)
+-  Coménto AWS 부트캠프 (7월 말 ~ 8월 중순)
+-  팀 AWS 프로젝트 진행 (10월 6일 마감)
+-  AWS Cloud Club Captain 지원 검토 중
 
 ---
 
